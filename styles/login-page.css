@@ -1,0 +1,72 @@
+body {
+    background-color: #418fda;
+}
+
+
+header, main {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    margin-top: 30px;
+}
+main > form {
+    background-color: white;
+    padding: 0 40px;
+}
+
+form h2.sign-up {
+    padding-top: 40px;
+    font-size: 30px;
+}
+.form-control > input {
+    width: 320px;
+    border: 2px solid #dedede;
+    padding: 15px;
+    border-radius: 3px;
+    outline: none;
+}
+.form-control > label {
+    display: block;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.logo {
+    height: 35px;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    display: block;
+    height: 55px;
+    width: 100%;
+    border: 2px solid #dedede;
+    padding: 15px;
+    color: white;
+    background-color: #64bc6f;
+    border-radius: 3px;
+}
+
+form a.forgot {
+    color: #a4a4a4;
+    display: inline-block;
+    margin: 15px 0 30px;
+}
+form a.forgot:hover {
+    text-decoration: underline;
+}
+
+p.login {
+    color: white;
+    font-size: 18px;
+}
+
+.login > a {
+    color: inherit;
+}
+.login > a:hover {
+    text-decoration: underline;
+}

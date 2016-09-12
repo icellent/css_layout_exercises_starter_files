@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="login page">
+    <title>Login Page</title>
+    <!-- fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- reset -->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" href="styles/login-page.css">
+</head>
+<body>
+<header>
+    <img src="images/logo.png" alt="logo" class="logo">
+</header>
+<main>
+    <form action="/signup/" method="post">
+        <h2 class="sign-up">
+            Sign up
+        </h2>
+        <div class="form-control">
+            <label for="username">Email</label>
+            <input type="email" id="username" placeholder="foo@bar.com" required>
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="1234password" required>
+        </div>
+        <input type="submit" value="Sign up">
+        <a href="/forgot-password/new" class="forgot">Forgot password</a>
+    </form>
+    <p class="login">Already have an account? <a href="login">Log in</a></p>
+</main>
+</body>
+</html>
